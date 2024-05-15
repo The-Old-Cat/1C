@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11fa7e87-4ce5-4f80-8ec4-2e05c4b659c9">
+  <producedTypes>
+    <objectType typeId="e9718750-9379-485c-94cf-725cb1b9dae3" valueTypeId="240c41e2-bfbb-4d36-9085-97dfa2e527b6"/>
+    <refType typeId="10d34978-4765-4aee-9156-e3fbaf3f1085" valueTypeId="017914c9-f11c-4cb5-9a65-7bf95d615713"/>
+    <selectionType typeId="bd0243fd-543e-4f5e-9840-dbba3ee6e535" valueTypeId="1276d6ad-13b9-46af-9e81-273e15aa14ba"/>
+    <listType typeId="eb72665b-5197-4cb0-a944-017d1cd36d74" valueTypeId="c2068928-2f88-4d80-a39d-dbdfc2fedd9b"/>
+    <managerType typeId="c05bf9a0-1bc9-414a-a099-0675f010d15a" valueTypeId="8d1868f2-6aff-4910-b309-b67bd4898863"/>
+  </producedTypes>
+  <name>Картриджи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картриджи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Картриджи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Картриджи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4924dd41-39a8-4214-b1c4-c3c89f53f029">
+  <producedTypes>
+    <objectType typeId="c07e92ee-c801-41a0-bc9a-492196296c9a" valueTypeId="cfb29431-68cf-467b-81b9-6098d3db9ce6"/>
+    <refType typeId="6da75374-526e-4d25-9551-4d5452b6bef4" valueTypeId="1a3ced65-9c9d-4c78-b5d9-5ed4a6be47ca"/>
+    <selectionType typeId="b8789ccf-d6be-4c48-b206-9a3b82da5f77" valueTypeId="a20b3d00-c041-4e8a-83e3-eccbf8478b26"/>
+    <listType typeId="6ac24add-0718-4400-a74b-2b4aaac373e1" valueTypeId="b480160a-c9aa-485d-a296-42cad82b11d4"/>
+    <managerType typeId="3c17f818-636b-4892-b1cd-ddb15053bd18" valueTypeId="444fc217-67f2-4638-b428-3f9fdc5863fe"/>
+  </producedTypes>
+  <name>ТерминалыСбораДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминалы сбора данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТерминалыСбораДанных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТерминалыСбораДанных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Терминал сбора данных</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Терминалы сбора данных</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="625bdc0b-c17f-4f68-ac40-a5c0890cccfd">
+    <name>Лицензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

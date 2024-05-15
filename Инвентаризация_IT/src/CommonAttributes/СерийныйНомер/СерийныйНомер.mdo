@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32472acb-6c6b-4277-b310-e75dde2f64a7">
+  <name>СерийныйНомер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийный номер</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>30</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Catalog.Видеорегистраторы</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Принтеры</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.ТерминалыСбораДанных</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Мониторы</metadata>
+    <use>DontUse</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+</mdclass:CommonAttribute>

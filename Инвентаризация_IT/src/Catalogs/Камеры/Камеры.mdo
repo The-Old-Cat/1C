@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9c8b117-86d3-4aec-a74c-e0271123206f">
+  <producedTypes>
+    <objectType typeId="92d42ed3-029e-435b-a0ad-ead17c97a22d" valueTypeId="9f060a09-561a-4db2-a665-001767631977"/>
+    <refType typeId="3818f173-feb3-4319-8897-81e6015d36ad" valueTypeId="1563645f-42c0-4258-a477-b5e9e2d7770c"/>
+    <selectionType typeId="a8e55a32-1873-4ee4-8ebb-c56710d0f4ff" valueTypeId="f984ba4a-d952-4620-bf51-36d1f6286c53"/>
+    <listType typeId="34a4c96b-67b6-48f6-93a0-72583f793637" valueTypeId="dc127e93-c4df-47a6-88fd-d7f57f77b576"/>
+    <managerType typeId="a3634b0c-ebc9-4ab3-8f91-f113cef234c0" valueTypeId="2d3b45bb-d453-4927-b820-43370a1fb732"/>
+  </producedTypes>
+  <name>Камеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Камеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Камеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Камеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bcb73d9b-68b2-4e4a-bdde-80863e6e7d41">
+    <name>IPАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP-Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e8d6aff-3b94-426c-99b7-d9f62e866e20">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be029a0f-3530-4b50-a8ba-1bd93d752410">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

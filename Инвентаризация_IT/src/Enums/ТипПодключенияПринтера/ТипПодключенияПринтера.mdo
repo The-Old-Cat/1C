@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5823f081-4ddb-4467-ae40-24c6b817ccf4">
+  <producedTypes>
+    <refType typeId="c602175e-3573-482d-b7c9-2ef751af3637" valueTypeId="09de296f-8e42-43a3-8a2f-5c97772a1075"/>
+    <listType typeId="51ddeeec-2ceb-4e07-87d2-dfa3460bec14" valueTypeId="6f34f5ce-f5d3-4101-9622-2d444c80e9f0"/>
+    <managerType typeId="69f0f946-0b6e-4d92-88a9-a36722d15582" valueTypeId="df275aa9-2445-4a52-b59a-8ae3a0eb1605"/>
+  </producedTypes>
+  <name>ТипПодключенияПринтера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип подключения принтера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3491f9c5-e998-4b49-8bca-159ffa564925">
+    <name>USB</name>
+    <synonym>
+      <key>ru</key>
+      <value>USB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef1bb8b1-726c-40ca-977a-92b5fb8f295b">
+    <name>TCP_IP</name>
+    <synonym>
+      <key>ru</key>
+      <value>TCP/IP</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

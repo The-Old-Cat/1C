@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84231880-1ec9-4461-b9dd-002486ecd354">
+  <name>MACАдрес</name>
+  <synonym>
+    <key>ru</key>
+    <value>MAC-Адрес</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>17</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillValue xsi:type="core:StringValue">
+    <value></value>
+  </fillValue>
+  <content>
+    <metadata>Catalog.Видеорегистраторы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.Принтеры</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.ТерминалыСбораДанных</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Мониторы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.Компьютеры</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Сотрудники</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.Подразделения</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.Камеры</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+</mdclass:CommonAttribute>

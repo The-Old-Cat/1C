@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="207870c4-2501-4cf0-abce-db706054b0aa">
+  <producedTypes>
+    <objectType typeId="b5c05a8c-d5be-4310-9b66-dee578c86824" valueTypeId="fbd33a80-42df-4042-8af0-ea1b5e207a35"/>
+    <refType typeId="5be234cc-1377-4308-8a03-5d9f1c10539f" valueTypeId="753e7e52-b16a-456a-9c05-7b4f09d1116d"/>
+    <selectionType typeId="b21fff5e-6af0-4c8d-b9c4-5899b313fd70" valueTypeId="2764473d-82a0-46f9-b6ff-21ea22f84551"/>
+    <listType typeId="bd77dd5c-60f4-41e6-baa7-7cd04d7e15d9" valueTypeId="b9e482a5-9fd1-4f4f-af4d-28d40634bcd6"/>
+    <managerType typeId="6a2395c6-c0cd-499c-8de6-cbb5af8d0a7c" valueTypeId="dcd59fb2-0219-4d8e-8924-8ed75af258bf"/>
+  </producedTypes>
+  <name>Видеорегистраторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видеорегистраторы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Видеорегистраторы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Видеорегистраторы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Видеорегистратор</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Видеорегистраторы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6408717d-a1b1-42f3-9f56-af11feed3121">
+    <name>IPАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP-Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cd54ce7-370f-4c06-9948-ed9d29b75f69">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95c2bd2a-834d-40f5-a789-eb602ddaab83">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e342ab4-be7e-4745-9b5c-795216502d57">
+    <name>КоличествоКаналов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество каналов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

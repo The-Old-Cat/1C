@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa8b262c-0e9e-448b-acb0-e73947e6099a">
+  <producedTypes>
+    <objectType typeId="742b245f-3fd0-4d73-89f1-e96c0fe4d900" valueTypeId="3ced95d2-6fd6-4ca5-a1a7-1c8f8fdf3353"/>
+    <refType typeId="ff7fdc78-270c-406f-91e5-69b531a9d22b" valueTypeId="d4d558e2-1fb0-402e-8f50-e45b4f6474ab"/>
+    <selectionType typeId="5066e5ca-994e-41fe-bbfa-b34c651c7dda" valueTypeId="579c6a4c-c0d6-46f1-aedd-9f7b2c8e6059"/>
+    <listType typeId="a4b32834-52e8-4a6d-8631-784b92b6e2f3" valueTypeId="efee9be5-896c-4fbe-9112-e7cee312c35f"/>
+    <managerType typeId="20e0ad34-c31b-4e5e-b386-2e4e695adabe" valueTypeId="ac2acb48-5b20-46da-a467-896fc9ac3e6f"/>
+  </producedTypes>
+  <name>РабочиеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РабочиеМеста.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рабочее место</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Рабочие места</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РабочиеМеста.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b85cbfc2-7422-445c-a088-3a869f8b43b9">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a1dc0198-87dd-4485-bb84-d783b43e3b3f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="6f024d01-a793-4f4d-88fa-ab18d37f68fe">
+    <producedTypes>
+      <objectType typeId="6e6cb2ca-5c32-468b-b1ec-37c7fe32b215" valueTypeId="4d8f513e-ebae-46a8-813d-fc59c9445c00"/>
+      <rowType typeId="83ec8311-cff5-4b95-b082-98aa56034d79" valueTypeId="d64745d0-bebe-4d4f-a89d-f788f3773a16"/>
+    </producedTypes>
+    <name>ПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПК</value>
+    </synonym>
+    <attributes uuid="34ea566d-f961-4a4a-b8bb-82fbd5f49780">
+      <name>ИмяПК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя ПК</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Компьютеры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f5e56a2-e5e6-4380-88b4-fdb495ee9d24">
+      <name>ОперационнаяСистема</name>
+      <synonym>
+        <key>ru</key>
+        <value>ОС</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bc6cc9c2-f137-4040-bf79-5ea602c4a703">
+      <name>Процессор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процессор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ed150e63-78e4-4668-86ac-851d6a55fe62">
+      <name>ТипОЗУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ОЗУ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>5</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2d934f48-0350-44ef-be3b-76703bd907fc">
+      <name>КоличествоОЗУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество ОЗУ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="dc9a86ac-fed7-407b-acba-07b12b74f850">
+    <producedTypes>
+      <objectType typeId="88f2316f-ad2e-440f-99f5-ebab620dc9e9" valueTypeId="5f29431c-714e-4d51-9ab8-a4ee8afe462f"/>
+      <rowType typeId="026d8055-ee6c-4cd7-8367-b82774c3f3d1" valueTypeId="41add5b4-ffb0-4b32-8e4b-005bdcc154b7"/>
+    </producedTypes>
+    <name>Мониторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторы</value>
+    </synonym>
+    <attributes uuid="2be8f0c2-0274-478b-aee2-707d6371342f">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1a0347d-a95c-4cd2-b486-d9dedcaa9634">
+      <name>Модель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="56b7c940-5f2b-489a-b784-61eb7569f8f8">
+      <name>Размер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b5ed647-0bd7-49cd-b51a-60a7c30fc755">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

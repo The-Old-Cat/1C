@@ -58,6 +58,5 @@
   <catalogs>Catalog.Видеорегистраторы</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Должности</catalogs>
-  <catalogs>Catalog.СправочникТест</catalogs>
   <documents>Document.РабочиеМеста</documents>
 </mdclass:Configuration>

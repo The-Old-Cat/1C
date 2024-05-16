@@ -24,7 +24,7 @@
   </content>
   <content>
     <metadata>Catalog.ТерминалыСбораДанных</metadata>
-    <use>Use</use>
+    <use>DontUse</use>
   </content>
   <content>
     <metadata>Catalog.Мониторы</metadata>

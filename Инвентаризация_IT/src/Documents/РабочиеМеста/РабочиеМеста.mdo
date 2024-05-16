@@ -261,6 +261,23 @@
       <key>ru</key>
       <value>Принтеры</value>
     </synonym>
+    <attributes uuid="82e89f51-62c3-4c43-8cb1-31b4baff51fd">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="8d590beb-09b2-4287-9bb2-7bdafc2a60a0">
       <name>Производитель</name>
       <synonym>
@@ -295,36 +312,14 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="a812f365-f4fe-4bb2-a3df-94446004c8a2">
-      <name>Размер</name>
+    <attributes uuid="3fb28522-04e1-4ccd-9da1-1ef49684253f">
+      <name>ТипПринтера</name>
       <synonym>
         <key>ru</key>
-        <value>Размер</value>
+        <value>Тип принтера</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>4</precision>
-          <scale>1</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="82e89f51-62c3-4c43-8cb1-31b4baff51fd">
-      <name>СерийныйНомер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Серийный номер</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
+        <types>EnumRef.ТипыПринтеров</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -376,6 +371,23 @@
       <key>ru</key>
       <value>ТСД</value>
     </synonym>
+    <attributes uuid="b4d08465-5392-495a-b0f4-94fd171816b6">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="f2576fd3-bb3c-40be-b534-28ad59b5f657">
       <name>Производитель</name>
       <synonym>
@@ -398,23 +410,6 @@
       <synonym>
         <key>ru</key>
         <value>Модель</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="b4d08465-5392-495a-b0f4-94fd171816b6">
-      <name>СерийныйНомер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Серийный номер</value>
       </synonym>
       <type>
         <types>String</types>

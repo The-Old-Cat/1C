@@ -163,6 +163,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </attributes>
   <attributes uuid="625bdc0b-c17f-4f68-ac40-a5c0890cccfd">
     <name>Лицензия</name>

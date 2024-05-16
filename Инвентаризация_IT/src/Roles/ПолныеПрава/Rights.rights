@@ -1,70 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
-	<setForNewObjects>false</setForNewObjects>
+	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
-	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
 	<object>
-		<name>Subsystem.Документы</name>
+		<name>CommonAttribute.СерийныйНомер</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Отчеты</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Сотрудники</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
+			<value>false</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.Производитель</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>InputByString</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.MACАдрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.Модель</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonAttribute.Подразделение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Configuration.Инвентаризация_ИТ</name>
 		<right>
-			<name>ExclusiveMode</name>
-			<value>true</value>
+			<name>Administration</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ActiveUsers</name>
-			<value>true</value>
+			<name>DataAdministration</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>EventLog</name>
-			<value>true</value>
+			<name>UpdateDataBaseConfiguration</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>TechnicalSpecialistMode</name>
-			<value>true</value>
+			<name>ThinClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>WebClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MobileClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ThickClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ExternalConnection</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Automation</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>CollaborationSystemInfoBaseRegistration</name>
+			<value>false</value>
 		</right>
 		<right>
 			<name>MainWindowModeNormal</name>
@@ -91,26 +125,20 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>SaveUserData</name>
-			<value>true</value>
+			<name>ExclusiveModeTerminationAtSessionStart</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Output</name>
-			<value>true</value>
+			<name>ConfigurationExtensionsAdministration</name>
+			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Subsystem.Обработки</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>InteractiveOpenExtDataProcessors</name>
+			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Subsystem.НСИ</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>InteractiveOpenExtReports</name>
+			<value>false</value>
 		</right>
 	</object>
 </Rights>

@@ -28,6 +28,10 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>Catalog.Картриджи</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>Document.РабочиеМеста</metadata>
     <use>Use</use>
   </content>
@@ -40,16 +44,12 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>Catalog.Подразделения</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>Catalog.Камеры</metadata>
     <use>Use</use>
   </content>
   <content>
-    <metadata>Catalog.Картриджи</metadata>
-    <use>Use</use>
+    <metadata>Catalog.Подразделения</metadata>
+    <use>DontUse</use>
   </content>
   <autoUse>DontUse</autoUse>
   <dataSeparation>DontUse</dataSeparation>

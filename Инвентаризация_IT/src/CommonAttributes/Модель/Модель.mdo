@@ -18,7 +18,7 @@
   </fillValue>
   <content>
     <metadata>Catalog.Видеорегистраторы</metadata>
-    <use>Use</use>
+    <use>DontUse</use>
   </content>
   <content>
     <metadata>Catalog.Принтеры</metadata>
@@ -34,7 +34,7 @@
   </content>
   <content>
     <metadata>Catalog.Камеры</metadata>
-    <use>Use</use>
+    <use>DontUse</use>
   </content>
   <autoUse>DontUse</autoUse>
   <dataSeparation>DontUse</dataSeparation>

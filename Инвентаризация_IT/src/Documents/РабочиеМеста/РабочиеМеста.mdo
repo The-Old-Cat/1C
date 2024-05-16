@@ -268,10 +268,7 @@
         <value>Серийный номер</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
+        <types>CatalogRef.Принтеры</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -319,40 +316,9 @@
         <value>Тип принтера</value>
       </synonym>
       <type>
-        <types>EnumRef.ТипыПринтеров</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="23e99d7c-b68f-4213-990e-6130610ab31e">
-      <name>ТипПодключения</name>
-      <synonym>
-        <key>ru</key>
-        <value>Тип подключения</value>
-      </synonym>
-      <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="2b398ecb-4d77-457d-bbb5-e53403c911e0">
-      <name>МодельКартриджа</name>
-      <synonym>
-        <key>ru</key>
-        <value>Модель картриджа</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
+          <length>20</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -378,10 +344,7 @@
         <value>Серийный номер</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
+        <types>CatalogRef.ТерминалыСбораДанных</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -422,21 +385,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e8b513bb-4b89-4eb4-84a9-945d0a30f129">
-      <name>MACАдрес</name>
-      <synonym>
-        <key>ru</key>
-        <value>MAC-Адрес</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>17</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </attributes>
     <attributes uuid="b836b769-1601-4006-92db-3af48e67aff2">
       <name>Лицензия</name>
       <synonym>
@@ -446,7 +394,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>20</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -465,6 +413,37 @@
       <key>ru</key>
       <value>Видеорегистраторы</value>
     </synonym>
+    <attributes uuid="bb06e373-b44c-4a3a-890e-d20e30365d38">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Видеорегистраторы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="074b24ec-7ddd-46af-adb7-9f30ff549342">
+      <name>ИмяВидеорегистратора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя видеорегистратора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="5f0ae5b4-8b8c-4863-bb1b-f65c16b0db58">
       <name>Производитель</name>
       <synonym>
@@ -492,40 +471,6 @@
         <types>String</types>
         <stringQualifiers>
           <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="bb06e373-b44c-4a3a-890e-d20e30365d38">
-      <name>СерийныйНомер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Серийный номер</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="ad7b09d5-35f4-4eb1-8d29-6bd185c1343a">
-      <name>IPАдрес</name>
-      <synonym>
-        <key>ru</key>
-        <value>IP-Адрес</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>15</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -561,6 +506,35 @@
       <key>ru</key>
       <value>Камеры</value>
     </synonym>
+    <attributes uuid="37f261ce-026f-48cd-bbd9-e9108bb1dddf">
+      <name>Производитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Производители</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a14ac6ac-8562-49d8-a7f0-477a0e78f7b9">
+      <name>Модель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="a4d06374-1b2a-46aa-b080-40ff7d1ab444">
       <name>IPАдрес</name>
       <synonym>
@@ -568,10 +542,7 @@
         <value>IP-Адрес</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>15</length>
-        </stringQualifiers>
+        <types>CatalogRef.Камеры</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -600,6 +571,40 @@
       <synonym>
         <key>ru</key>
         <value>Пароль</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="52b0587c-7367-4890-a1d7-03d732d78373">
+      <name>Порт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="851eaa5d-98e9-4caf-8bb4-d72c2bcfa8b6">
+      <name>Протокол</name>
+      <synonym>
+        <key>ru</key>
+        <value>Протокол</value>
       </synonym>
       <type>
         <types>String</types>

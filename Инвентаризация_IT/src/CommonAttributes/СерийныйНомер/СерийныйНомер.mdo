@@ -16,7 +16,7 @@
   <fillValue xsi:type="core:UndefinedValue"/>
   <content>
     <metadata>Catalog.Видеорегистраторы</metadata>
-    <use>Use</use>
+    <use>DontUse</use>
   </content>
   <content>
     <metadata>Catalog.Принтеры</metadata>
@@ -28,6 +28,10 @@
   </content>
   <content>
     <metadata>Catalog.Мониторы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.Камеры</metadata>
     <use>DontUse</use>
   </content>
   <autoUse>DontUse</autoUse>

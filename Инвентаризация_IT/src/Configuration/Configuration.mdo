@@ -62,7 +62,6 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Картриджи</catalogs>
-  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.РабочиеМеста</documents>
   <enums>Enum.ТипыПринтеров</enums>
   <enums>Enum.ТипПодключенияПринтера</enums>

@@ -42,6 +42,7 @@
   <subsystems>Subsystem.Обработки</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Менеджер</roles>
+  <roles>Role.Администратор</roles>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonAttributes>CommonAttribute.Подразделение</commonAttributes>
   <commonAttributes>CommonAttribute.Производитель</commonAttributes>

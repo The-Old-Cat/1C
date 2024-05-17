@@ -172,7 +172,7 @@
       <value>Тип подключения</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипПодключенияПринтера</types>
+      <types>EnumRef.ТипыПодключенияПринтеров</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

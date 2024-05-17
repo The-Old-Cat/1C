@@ -25,8 +25,10 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
   <defaultStyle>Style.СтильСерый</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <compatibilityMode>8.3.7</compatibilityMode>
   <languages uuid="891bf448-0dfc-4fbb-91ca-a5e8b50f2a66">
@@ -68,5 +70,5 @@
   <catalogs>Catalog.Картриджи</catalogs>
   <documents>Document.РабочиеМеста</documents>
   <enums>Enum.ТипыПринтеров</enums>
-  <enums>Enum.ТипПодключенияПринтера</enums>
+  <enums>Enum.ТипыПодключенияПринтеров</enums>
 </mdclass:Configuration>

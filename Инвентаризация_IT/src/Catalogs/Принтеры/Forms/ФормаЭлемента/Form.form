@@ -261,6 +261,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ТипПринтера</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ТипПринтераПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ТипПринтераРасширеннаяПодсказка</name>
       <id>15</id>
@@ -357,7 +361,6 @@
   <items xsi:type="form:FormField">
     <name>IPАдрес</name>
     <id>19</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -407,7 +410,6 @@
   <items xsi:type="form:FormField">
     <name>МодельКартриджа</name>
     <id>22</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -465,6 +467,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

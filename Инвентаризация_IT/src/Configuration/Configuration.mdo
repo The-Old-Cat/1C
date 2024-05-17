@@ -25,6 +25,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.СтильСерый</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <compatibilityMode>8.3.7</compatibilityMode>
@@ -40,9 +41,9 @@
   <subsystems>Subsystem.Документы</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Обработки</subsystems>
-  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
-  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
-  <commonPictures>CommonPicture.ОбщаяКартинка2</commonPictures>
+  <styles>Style.СтильСерый</styles>
+  <commonPictures>CommonPicture.ОбщаяКартинкаНСИ</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинкаДокументы</commonPictures>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Менеджер</roles>
   <roles>Role.Администратор</roles>

@@ -98,19 +98,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>СсылкаПодразделение</name>
-      <id>28</id>
+      <name>Подразделение</name>
+      <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ref.Подразделение</segments>
+        <segments>Список.Подразделение</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СсылкаПодразделениеРасширеннаяПодсказка</name>
-        <id>30</id>
+        <name>ПодразделениеРасширеннаяПодсказка</name>
+        <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -124,8 +124,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СсылкаПодразделениеКонтекстноеМеню</name>
-        <id>29</id>
+        <name>ПодразделениеКонтекстноеМеню</name>
+        <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -448,6 +448,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <width>100</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -469,6 +470,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Подразделение</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>Catalog.Камеры</mainTable>

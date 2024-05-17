@@ -71,7 +71,7 @@
     <name>Parent</name>
     <synonym>
       <key>ru</key>
-      <value>Родитель</value>
+      <value>Тип ПК</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -84,7 +84,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование</value>
+      <value>Имя ПК</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -123,6 +123,24 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Компьютеры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="83388783-9a26-478b-aa46-2574d3201a66">
+    <name>Домен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="bd18f570-86b0-489f-b4cc-1f3b76d63fb9">
     <name>ОперационнаяСистема</name>
     <synonym>
@@ -202,18 +220,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9352d6ae-aa6a-4f9b-b080-db980515bdcf">
-    <name>РабочееМесто</name>
+  <attributes uuid="94b9d01b-7a5c-46e9-adee-b59bddb39733">
+    <name>IPАдрес</name>
     <synonym>
       <key>ru</key>
-      <value>Рабочее место</value>
+      <value>IP-Адрес</value>
     </synonym>
     <type>
-      <types>DocumentRef.РабочиеМеста</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -306,7 +329,11 @@
       <value>Устройства</value>
     </synonym>
     <attributes uuid="bf2e3534-8e39-4e1f-80d6-81e75899f23b">
-      <name>Реквизит1</name>
+      <name>Устройство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Устройство</value>
+      </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
@@ -318,6 +345,141 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="480423ad-ae8d-4296-9929-4d853319f2b9">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9fdaeaa7-a8a3-4fca-a9cb-ed112af0d5c1">
+      <name>Изготовитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изготовитель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab22632a-217f-4217-9487-4fcf4d4ea2ae">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1b12ef62-5a24-4c79-a4b7-edf64df6fc9b">
+    <producedTypes>
+      <objectType typeId="1384ede4-d969-4ae4-a618-d1341106035b" valueTypeId="42fd92a7-81d9-40bd-b9d0-ba695e76ab6a"/>
+      <rowType typeId="eb816a4f-d70a-4403-b7c7-e94615ce75e8" valueTypeId="cfbd75c9-e10d-42fa-9a24-4c7ba2598ef6"/>
+    </producedTypes>
+    <name>СетевыеИнтерфейсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевые интерфейсы</value>
+    </synonym>
+    <attributes uuid="2a590f6a-439d-4e55-8542-a0533598a6a5">
+      <name>Название</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="28182b11-4773-4e07-afc2-d5f78a3591e2">
+      <name>СетевойАдрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сетевой адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c559dbc-647d-482e-96c0-9d623875bcca">
+      <name>MacАдрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Mac-адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3109528d-e2c0-4b9b-a548-4d2e28640a0f">
+    <producedTypes>
+      <objectType typeId="2e321805-8676-4ef1-9c28-3ca0d62eb05d" valueTypeId="87c6ff37-9dc2-4e38-a5c9-e3ab38455373"/>
+      <rowType typeId="81394752-ffde-49c4-9ef3-74e142c0fcdb" valueTypeId="fe5bd8a3-5658-43b1-a100-b588d0a2cc96"/>
+    </producedTypes>
+    <name>Периферия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периферия</value>
+    </synonym>
+  </tabularSections>
+  <tabularSections uuid="4bf4d7f3-ec7a-4c34-b018-1d921974394d">
+    <producedTypes>
+      <objectType typeId="a8119ae8-21f3-4a98-9d22-2fe235022fb6" valueTypeId="68de57ef-814f-41e7-bbc9-8aa8123ea999"/>
+      <rowType typeId="8f9e0feb-b38e-45a1-9194-8723e73c943e" valueTypeId="a9b65a34-fc28-445c-a3f5-f7b01fd035ae"/>
+    </producedTypes>
+    <name>ПрограммноеОбеспечение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программное обеспечение</value>
+    </synonym>
   </tabularSections>
   <forms uuid="2a2cd471-a793-4888-8b5c-2590b27724f5">
     <name>ФормаЭлемента</name>

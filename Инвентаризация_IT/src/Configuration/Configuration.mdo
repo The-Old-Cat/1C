@@ -58,17 +58,19 @@
   <commandGroups>CommandGroup.Оборудование</commandGroups>
   <commandGroups>CommandGroup.СтруктураПредприятия</commandGroups>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Компьютеры</catalogs>
   <catalogs>Catalog.Мониторы</catalogs>
   <catalogs>Catalog.Принтеры</catalogs>
+  <catalogs>Catalog.Картриджи</catalogs>
   <catalogs>Catalog.ТерминалыСбораДанных</catalogs>
   <catalogs>Catalog.Видеорегистраторы</catalogs>
   <catalogs>Catalog.Камеры</catalogs>
-  <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.Должности</catalogs>
-  <catalogs>Catalog.Производители</catalogs>
-  <catalogs>Catalog.Картриджи</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <documents>Document.РабочиеМеста</documents>
   <enums>Enum.ТипыПринтеров</enums>
   <enums>Enum.ТипыПодключенияПринтеров</enums>
+  <enums>Enum.ЛицензииКлеверенс</enums>
 </mdclass:Configuration>

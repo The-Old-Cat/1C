@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f2d8794-a4ee-4cbf-baf1-2d02cadc030d">
+  <producedTypes>
+    <refType typeId="d892572e-842a-43bb-94fc-89bf051a2ddc" valueTypeId="ca727c26-333d-4d09-b1e0-193eedab5f17"/>
+    <listType typeId="1a45c544-3686-4617-8495-86f2fe3ad004" valueTypeId="08898f53-fb82-4c12-8675-0b449761cac9"/>
+    <managerType typeId="b1d74d1a-252d-43ce-9fdd-7b1a68e0e445" valueTypeId="275b2343-7a14-463c-853e-f6f757ce30de"/>
+  </producedTypes>
+  <name>ЛицензииКлеверенс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии клеверенс</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b8f0940d-be4c-4740-95ed-71b673dc439a">
+    <name>Магазин15</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин 15</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe16efe4-8d02-4141-b6c2-9892da2a9eb8">
+    <name>Склад15</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад 15</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

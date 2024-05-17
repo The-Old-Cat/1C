@@ -120,6 +120,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="9ecdb92c-6fa7-43a6-bc7c-6ac37406821c">
     <name>Должность</name>
     <synonym>
@@ -127,26 +128,21 @@
       <value>Должность</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
+      <types>CatalogRef.Должности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8989e4b8-0951-4502-89fe-1477ad7539db">
-    <name>Статус</name>
+    <name>Уволен</name>
     <synonym>
       <key>ru</key>
-      <value>Статус</value>
+      <value>Уволен</value>
     </synonym>
-    <comment>Работает/Не работает</comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -218,4 +214,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="4616abb5-b98e-4935-8135-9f5807b12d5b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

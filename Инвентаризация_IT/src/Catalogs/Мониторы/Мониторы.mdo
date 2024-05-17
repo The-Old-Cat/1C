@@ -117,8 +117,8 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Мониторы.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultChoiceForm>Catalog.Мониторы.Form.ФормаВыбораМонитора</defaultChoiceForm>
-  <attributes uuid="4312d7e2-f833-4d80-bddf-f1782e5e422c">
+  <defaultChoiceForm>Catalog.Мониторы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d92fe94f-a355-4aeb-82bb-a69f2434b87c">
     <name>Производитель</name>
     <synonym>
       <key>ru</key>
@@ -132,7 +132,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <attributes uuid="384d5cb6-7262-4a00-ac34-06e000f65562">
+  <attributes uuid="19e0338f-c710-445e-b085-87e4f7086a04">
     <name>Модель</name>
     <synonym>
       <key>ru</key>
@@ -170,20 +170,20 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <forms uuid="a85252aa-a14b-4aff-ac9f-da7484e4f536">
-    <name>ФормаВыбораМонитора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора монитора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="80b8bf14-dace-4b7b-9939-cc038c6f78f4">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="25c29d21-73d8-4f2a-8967-5343ab309d57">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

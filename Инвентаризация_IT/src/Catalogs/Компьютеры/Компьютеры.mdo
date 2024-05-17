@@ -71,7 +71,7 @@
     <name>Parent</name>
     <synonym>
       <key>ru</key>
-      <value>Тип ПК</value>
+      <value>Родитель</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -84,7 +84,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Имя ПК</value>
+      <value>Наименование</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

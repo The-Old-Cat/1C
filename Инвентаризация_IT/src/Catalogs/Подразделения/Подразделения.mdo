@@ -68,7 +68,7 @@
     <name>Parent</name>
     <synonym>
       <key>ru</key>
-      <value>Группа</value>
+      <value>Родитель</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>

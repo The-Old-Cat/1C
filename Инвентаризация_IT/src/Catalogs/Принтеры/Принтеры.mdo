@@ -115,6 +115,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Принтеры.Form.ФормаЭлемента</defaultObjectForm>
   <defaultChoiceForm>Catalog.Принтеры.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="f8d8c821-22af-4bd5-af4d-ec1d129ff662">
     <name>Производитель</name>
@@ -219,6 +220,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82452532-1e2c-48bd-b497-1dc1f92631d7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

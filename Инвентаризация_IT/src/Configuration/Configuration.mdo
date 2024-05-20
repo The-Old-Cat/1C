@@ -69,6 +69,7 @@
   <catalogs>Catalog.Видеорегистраторы</catalogs>
   <catalogs>Catalog.Камеры</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.РабочиеМеста</documents>
   <enums>Enum.ТипыПринтеров</enums>
   <enums>Enum.ТипыПодключенияПринтеров</enums>

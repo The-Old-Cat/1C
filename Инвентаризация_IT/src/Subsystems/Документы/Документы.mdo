@@ -11,4 +11,5 @@
     <picture>CommonPicture.ОбщаяКартинкаДокументы</picture>
   </picture>
   <content>Document.РабочиеМеста</content>
+  <content>Document.ПередачаОтветственности</content>
 </mdclass:Subsystem>

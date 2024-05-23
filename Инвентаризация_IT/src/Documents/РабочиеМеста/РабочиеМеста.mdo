@@ -37,6 +37,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РабочиеМеста.Form.ФормаДокумента</defaultObjectForm>
+  <defaultChoiceForm>Document.РабочиеМеста.Form.ФормаВыбора</defaultChoiceForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="b85cbfc2-7422-445c-a088-3a869f8b43b9">
@@ -59,6 +60,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56ac2c69-0ae8-4944-8251-1e038fda1364">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

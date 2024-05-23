@@ -52,10 +52,6 @@
     <metadata>Catalog.Подразделения</metadata>
     <use>DontUse</use>
   </content>
-  <content>
-    <metadata>Catalog.Номенклатура</metadata>
-    <use>DontUse</use>
-  </content>
   <autoUse>DontUse</autoUse>
   <dataSeparation>DontUse</dataSeparation>
   <usersSeparation>DontUse</usersSeparation>

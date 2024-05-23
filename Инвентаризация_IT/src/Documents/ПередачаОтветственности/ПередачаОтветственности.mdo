@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a035bf85-13e8-4921-8b47-e200b73b032f">
+  <producedTypes>
+    <objectType typeId="554e1cb1-1e7b-439b-8936-d1b11e587cab" valueTypeId="28b50098-b8ec-4999-9620-74cd615bcb8a"/>
+    <refType typeId="8769d816-f20a-4f54-aa21-f439398b663a" valueTypeId="f3171394-a081-4a8b-9f46-63717a8dd735"/>
+    <selectionType typeId="cdcff45b-a48e-43fd-a3d8-ee1dee51c3b3" valueTypeId="86cd419b-2361-40fe-a7c4-cddc12916262"/>
+    <listType typeId="ed7975ed-b54d-473f-8d90-a166c112d100" valueTypeId="182ba36b-3c1b-4990-84f9-18fc25b00fbd"/>
+    <managerType typeId="6ce9e6fd-4351-40c6-a368-8988d993e6db" valueTypeId="3f2adc6b-e9e8-448d-8f23-a6c427440269"/>
+  </producedTypes>
+  <name>ПередачаОтветственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача ответственности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПередачаОтветственности.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПередачаОтветственности.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="43cb1eb6-424f-4ba5-b41e-064605d27310">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5b003876-65c9-4418-a796-74ef6d5742ab">
+    <producedTypes>
+      <objectType typeId="a4694aef-19ce-423b-aad0-8fe919f784f7" valueTypeId="866a7ead-8756-4a9f-85c4-3874dcf4a13d"/>
+      <rowType typeId="1f4eb403-637b-42ec-968f-9d6ec31ce258" valueTypeId="8d891fca-5d09-4903-99cf-837da7c3a6e5"/>
+    </producedTypes>
+    <name>УвольняемыйСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольняемый сотрудник</value>
+    </synonym>
+    <attributes uuid="dceab931-bbb6-4962-b5e1-5f76449beb46">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e7a55712-9ad3-4507-99a8-27b35851590a">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="413829d0-a8d1-47a6-99bc-ff2771a94bfa">
+    <producedTypes>
+      <objectType typeId="846eb94f-7cd1-4bff-b928-174c9e456d87" valueTypeId="f7e3cfa8-86ca-4205-9a4d-0468ccec36cd"/>
+      <rowType typeId="4c090047-ddc9-4367-a99b-409392778d20" valueTypeId="50ba061e-ea76-4af7-951e-91cbe0f52d15"/>
+    </producedTypes>
+    <name>РабочиеМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочие места</value>
+    </synonym>
+    <attributes uuid="627d6737-d969-432f-a8ac-6c80180e1724">
+      <name>РабочееМесто</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочее место</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2e3e711-3248-4028-8091-c85e62544d41">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eb3bafe8-cf23-49e8-a9c2-f9cf35748ddb">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0f23b6ff-4cf0-477d-b9bd-7338782f6fd8">
+    <producedTypes>
+      <objectType typeId="e85b038d-caff-46f0-baf6-7f315b2757d6" valueTypeId="512b4203-c901-4645-bf98-54e3d4811c76"/>
+      <rowType typeId="039067f5-48c5-4eba-9dca-bb5830d37d6d" valueTypeId="3fee8a95-7abc-44af-a557-b8d50bcb7682"/>
+    </producedTypes>
+    <name>НовыеОтветственные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новые ответственные</value>
+    </synonym>
+    <attributes uuid="53ae797c-5a10-4cf1-ba3c-ca670b54ef2f">
+      <name>РабочееМесто</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочее место</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c441ddf9-4f0b-4083-b717-6501f7f8fb93">
+      <name>НовыйОтветственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новый ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

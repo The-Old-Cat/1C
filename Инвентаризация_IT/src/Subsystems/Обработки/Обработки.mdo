@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2bc5ffa-fa6c-4e80-8fcd-38eb4e50fb9e">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cafbe4b-1b0f-4b78-886f-9f6c5c7688a6">
   <name>Обработки</name>
   <synonym>
     <key>ru</key>

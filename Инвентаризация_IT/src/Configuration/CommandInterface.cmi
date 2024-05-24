@@ -37,23 +37,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <subsystem>Subsystem.Обработки</subsystem>
-      <visible>
-        <common>true</common>
-        <for>
-          <role>Role.Менеджер</role>
-        </for>
-        <for>
-          <value>true</value>
-          <role>Role.Администратор</role>
-        </for>
-        <for>
-          <value>true</value>
-          <role>Role.ПолныеПрава</role>
-        </for>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <subsystem>Subsystem.Документы</subsystem>
       <visible>
         <common>true</common>
@@ -76,6 +59,5 @@
     <subsystems>Subsystem.НСИ</subsystems>
     <subsystems>Subsystem.Документы</subsystems>
     <subsystems>Subsystem.Отчеты</subsystems>
-    <subsystems>Subsystem.Обработки</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

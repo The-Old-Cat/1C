@@ -126,11 +126,4 @@
 			<value>true</value>
 		</right>
 	</object>
-	<object>
-		<name>Subsystem.Обработки</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
 </Rights>

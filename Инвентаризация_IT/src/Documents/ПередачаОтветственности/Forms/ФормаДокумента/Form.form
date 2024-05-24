@@ -111,6 +111,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.УвольняемыйСотрудник</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>УвольняемыйСотрудникПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>УвольняемыйСотрудникРасширеннаяПодсказка</name>
       <id>43</id>
@@ -648,6 +652,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
   </handlers>
   <width>100</width>
   <autoTitle>true</autoTitle>

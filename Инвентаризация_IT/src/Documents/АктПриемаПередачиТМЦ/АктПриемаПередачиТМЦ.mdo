@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fe9cd45-1d4f-4e48-b07a-42f38c6ec712">
+  <producedTypes>
+    <objectType typeId="e38b0860-da47-4069-8dda-a7d6dc7dac45" valueTypeId="15c8fe0a-d12c-4ccb-a59e-2a34743c69ed"/>
+    <refType typeId="aa1d2989-e7aa-4916-8d94-22784961d292" valueTypeId="a3becbc2-d191-4dff-b5b2-3b49ea42b23b"/>
+    <selectionType typeId="ae0806a4-8739-430b-be14-266de6c7b39e" valueTypeId="3092dd68-f94f-434d-af0e-708a44a3bfe5"/>
+    <listType typeId="b5395980-980d-4d8b-a762-0662345e09b4" valueTypeId="06aaadd0-f8df-48e8-b8ee-6874293858b2"/>
+    <managerType typeId="a5f49cd2-d96a-4233-ad46-df41a1992fb4" valueTypeId="fee39485-204e-4f4a-99b8-0667ba30ed82"/>
+  </producedTypes>
+  <name>АктПриемаПередачиТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт приема передачи ТМЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АктПриемаПередачиТМЦ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

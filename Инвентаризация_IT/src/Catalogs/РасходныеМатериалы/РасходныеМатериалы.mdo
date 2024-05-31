@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cda61bc-f56a-4d29-afec-786acfb03429">
+  <producedTypes>
+    <objectType typeId="87600164-1e85-4bf1-beda-2c6073607e08" valueTypeId="189d7393-681b-4873-9694-15f748b7ef06"/>
+    <refType typeId="2c0dd1a7-d56e-41d2-b789-d755ae4ea84f" valueTypeId="20e08fe4-2b92-4bfc-9a6e-357d4f7a29ea"/>
+    <selectionType typeId="30e31432-9a9c-4a45-b06e-7dc74e408caa" valueTypeId="37dee68c-b321-4234-bf12-538e3c360cce"/>
+    <listType typeId="c6680052-b9e2-4c44-b0cd-6683d3ba08ee" valueTypeId="fe251a29-a197-4207-810d-f1d9d80b31c8"/>
+    <managerType typeId="5fd917a6-4f10-4111-9baf-4fa2674292a1" valueTypeId="d04d71b8-8fbb-4684-a60b-a7d41fd74cd3"/>
+  </producedTypes>
+  <name>РасходныеМатериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходные материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасходныеМатериалы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РасходныеМатериалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="77b41cdc-91d9-43a3-90db-b7f3b0222791">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

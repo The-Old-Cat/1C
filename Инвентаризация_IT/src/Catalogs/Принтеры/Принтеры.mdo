@@ -88,6 +88,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инв №</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -104,9 +108,10 @@
     <key>ru</key>
     <value>Принтеры</value>
   </listPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>12</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -116,6 +121,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Принтеры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Принтеры.Form.ФормаГруппы</defaultFolderForm>
   <defaultChoiceForm>Catalog.Принтеры.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="f8d8c821-22af-4bd5-af4d-ec1d129ff662">
     <name>Производитель</name>
@@ -149,21 +155,6 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
-  <attributes uuid="58b1d335-47fc-461c-b6bb-551c979f3ff5">
-    <name>ТипПринтера</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип принтера</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ТипыПринтеров</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="bdeadc47-5643-4010-861e-45f9ab43276e">
     <name>ТипПодключения</name>
@@ -215,6 +206,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3cfd6200-606d-47eb-9e0f-b5535ea0c0dd">
+    <name>ВидОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оборудования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27fc0860-84e4-4802-a2ae-2c4eea702468">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4f8c8e8b-8871-4ff3-9851-f3b917eec29a">
     <name>ФормаВыбора</name>
     <synonym>
@@ -229,6 +250,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50b2d2b8-91f7-4a74-80ec-9e9d2469ca72">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

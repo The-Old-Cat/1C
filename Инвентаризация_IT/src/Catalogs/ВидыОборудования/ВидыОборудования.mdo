@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5764bca5-884b-406b-a8e9-f717c0f3955e">
+  <producedTypes>
+    <objectType typeId="48fbb051-8c77-4f58-a201-bf4e5c7f3156" valueTypeId="c0a3728f-43f5-491f-852b-71cbdfff2491"/>
+    <refType typeId="d78d60de-9a23-4f3f-a59f-58c4b8c04ccf" valueTypeId="9ed06acd-d627-41ab-b07a-ae869f79bbc5"/>
+    <selectionType typeId="92631f71-5403-473e-aeea-96803d2797c2" valueTypeId="37197078-11a2-4f4c-9125-d39ad7dc489e"/>
+    <listType typeId="8ab9c55d-bab8-4acb-9f22-b7af8df22091" valueTypeId="2e9417fd-934e-4876-904a-9b937a39e47d"/>
+    <managerType typeId="ed45386a-e0b0-443a-bdbc-aacd7cb20f8e" valueTypeId="afc27b93-d222-4e85-8cf6-63192011280d"/>
+  </producedTypes>
+  <name>ВидыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2ead8327-2ba0-4280-9155-7dfa49985dd6">
+      <name>Видеорегистратор</name>
+      <description>Видеорегистратор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="2d6aebaf-51ad-4ed0-b665-d55f7366a6c2">
+      <name>Камера</name>
+      <description>Камера</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="7259df30-77b8-426c-a752-54aecf88b6fc">
+      <name>Картридж</name>
+      <description>Картридж</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="2c502349-06a9-4736-acea-3aa09fb75201">
+      <name>Монитор</name>
+      <description>Монитор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8c9b10c4-1cb7-479c-93d9-b599c9a0fe39">
+      <name>СистемныйБлок</name>
+      <description>Системный блок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="eae09be9-f086-4f92-b488-d774efcaba14">
+      <name>Принтер</name>
+      <description>Принтер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="1966c61a-270d-4f94-b350-182bb5087172">
+      <name>ПринтерЭтикеток</name>
+      <description>Принтер этикеток</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="91e02346-2e85-4b1c-9af5-125f00ea5cb7">
+      <name>ТерминалСбораДанных</name>
+      <description>Терминал сбора данных</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="1c6d2e9c-b564-4066-aba3-d43b99b70a4e">
+      <name>СистемныйБлокТонкийКлиент</name>
+      <description>Системный блок (тонкий клиент)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

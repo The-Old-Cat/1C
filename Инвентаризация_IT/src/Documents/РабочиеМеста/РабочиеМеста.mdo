@@ -83,6 +83,23 @@
       <key>ru</key>
       <value>ПК</value>
     </synonym>
+    <attributes uuid="dc90f82b-0d59-4302-a1b1-7aca8406a77e">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="34ea566d-f961-4a4a-b8bb-82fbd5f49780">
       <name>ИмяПК</name>
       <synonym>
@@ -95,6 +112,23 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aedf24fe-ac9b-46a6-be67-9d14c4357cfb">
+      <name>ТипПК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ПК</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -260,6 +294,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="f3df7832-c5ef-4959-ac45-6cd2f5d94cd4">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="5f437ab4-a66b-4fdf-ae75-c672cc9560ad">
     <producedTypes>
@@ -336,6 +387,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="3c1ed97a-7eb6-4e69-863c-7a72e45ca408">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="2656c7c8-a33f-492a-9a8a-432aad7f2fbd">
     <producedTypes>
@@ -405,6 +473,23 @@
         <types>String</types>
         <stringQualifiers>
           <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e637df7a-b44d-4d79-ba1a-1b686e2f2fc1">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -499,6 +584,23 @@
         <numberQualifiers>
           <precision>3</precision>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19371437-7cf1-420a-9154-4480d371bbb7">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -620,6 +722,23 @@
         <types>String</types>
         <stringQualifiers>
           <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="409957a8-adfd-446d-8553-8f3b0bf466c8">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

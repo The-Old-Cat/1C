@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c339a771-7a95-4f57-87dd-50b418fe828e">
+  <producedTypes>
+    <refType typeId="4b6b1e3c-b23d-443b-ac38-28df4e08b35b" valueTypeId="39cf83f2-c513-47c3-bfbe-eb7311cf32d3"/>
+    <listType typeId="4edeec71-0725-4c58-8a59-be4d14e64c28" valueTypeId="065709f6-0e36-444a-9b89-d1b00e32e2c2"/>
+    <managerType typeId="293ac989-d054-4a6b-b978-4a44b88109bc" valueTypeId="e434afe6-5e72-4e55-beba-cbd9b62370ac"/>
+  </producedTypes>
+  <name>ТипыНакопителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы накопителей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b130f93-cff3-4b08-a04f-2844e51a0639">
+    <name>SSD</name>
+    <synonym>
+      <key>ru</key>
+      <value>SSD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c64abf8-edec-42f2-8b6d-29a9ef69c7fe">
+    <name>HDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>HDD</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -69,10 +69,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип ПК</value>
-    </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -95,6 +91,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инв №</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -111,9 +111,9 @@
     <value>Компьютеры</value>
   </listPresentation>
   <hierarchical>true</hierarchical>
-  <levelCount>2</levelCount>
+  <levelCount>3</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>12</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -123,6 +123,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Компьютеры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Компьютеры.Form.ФормаГруппы</defaultFolderForm>
   <attributes uuid="83388783-9a26-478b-aa46-2574d3201a66">
     <name>Домен</name>
     <synonym>
@@ -185,19 +186,14 @@
     <name>ТипОЗУ</name>
     <synonym>
       <key>ru</key>
-      <value>Тип ОЗУ</value>
+      <value>Тип ОЗУ, </value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>5</length>
-      </stringQualifiers>
+      <types>EnumRef.ТипыОзу</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -205,14 +201,13 @@
     <name>КоличествоОЗУ</name>
     <synonym>
       <key>ru</key>
-      <value>Количество ОЗУ</value>
+      <value>Количество ОЗУ, гб</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -248,6 +243,36 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6928c882-1b78-43c8-8eee-e59958e43ac1">
+    <name>ВидОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оборудования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aced2f35-413e-4ec5-bb67-4ca188d11353">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияОборудования</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -301,16 +326,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="044d2208-3299-4554-b130-ffe95dd69e5b">
-      <name>Тип</name>
+      <name>ТипНакопителя</name>
       <synonym>
         <key>ru</key>
-        <value>Тип</value>
+        <value>Тип накопителя</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <types>EnumRef.ТипыНакопителей</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -486,6 +508,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d26f04b-d63b-4746-89e4-607c547f635e">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

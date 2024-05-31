@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f9b7dc1-ffa4-4ebe-93ad-63da57f7b2e7">
+  <producedTypes>
+    <refType typeId="7421528e-6bcf-40bb-8ad3-b2c16ed00c8f" valueTypeId="2c06e142-b143-4b65-a356-fb9abb2bf11a"/>
+    <listType typeId="1061e0bf-c8f2-450a-a82e-6d3a22eb39ac" valueTypeId="f78210c1-ea60-4041-ad52-c3e66a47c52e"/>
+    <managerType typeId="dc28bffa-6b8f-49c7-8ef1-09c31b40dad5" valueTypeId="fc5477d1-40f7-4ba8-a399-d61f9defbaf7"/>
+  </producedTypes>
+  <name>ТипыОзу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы озу</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e922e628-2a2d-4ce9-a207-1de7b484fc7d">
+    <name>DDR2</name>
+    <synonym>
+      <key>ru</key>
+      <value>DDR2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="392f1d00-9829-4da7-bacf-761f9ccafbde">
+    <name>DDR3</name>
+    <synonym>
+      <key>ru</key>
+      <value>DDR3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f884f632-f3a4-4c29-abca-74eaa3c7ae75">
+    <name>DDR4</name>
+    <synonym>
+      <key>ru</key>
+      <value>DDR4</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

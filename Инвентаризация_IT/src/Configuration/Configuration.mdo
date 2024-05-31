@@ -72,19 +72,10 @@
   <catalogs>Catalog.ВидыОборудования</catalogs>
   <catalogs>Catalog.РасходныеМатериалы</catalogs>
   <catalogs>Catalog.СостоянияОборудования</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.РабочиеМеста</documents>
   <documents>Document.ПередачаОтветственности</documents>
-  <documents>Document.АктВводаВЭксплуатацию</documents>
-  <documents>Document.АктСписания</documents>
-  <documents>Document.АктПередачиВРемонт</documents>
-  <documents>Document.АктПриемаПередачиТМЦ</documents>
-  <documents>Document.ЗакупкаМатериалов</documents>
-  <documents>Document.РасходованиеМатериалов</documents>
   <enums>Enum.ТипыПодключенияПринтеров</enums>
   <enums>Enum.ЛицензииКлеверенс</enums>
   <enums>Enum.ТипыОзу</enums>
   <enums>Enum.ТипыНакопителей</enums>
-  <accumulationRegisters>AccumulationRegister.ОстаткиРасходныхМатериалов</accumulationRegisters>
 </mdclass:Configuration>
